@@ -1,8 +1,8 @@
-import TeamMamberCard from "./TeamMamberCard";
+import TeamMemberCard from "./TeamMemberCard";
 
 const TeamMember = () => {
   return (
-    <section className="text-gray-700 body-font border-t border-gray-200">
+    <section className="">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
@@ -15,19 +15,12 @@ const TeamMember = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-         <TeamMamberCard/>
-         <TeamMamberCard/>
-         <TeamMamberCard/>
-         <TeamMamberCard/>
-         <TeamMamberCard/>
-         <TeamMamberCard/>
-         <TeamMamberCard/>
-         <TeamMamberCard/>
-         <TeamMamberCard/>
-         <TeamMamberCard/>
-         <TeamMamberCard/>
-         <TeamMamberCard/>
-       
+          <TeamMemberCard />
+          <TeamMemberCard />
+          <TeamMemberCard />
+          <TeamMemberCard />
+          <TeamMemberCard />
+          <TeamMemberCard />
         </div>
       </div>
     </section>
